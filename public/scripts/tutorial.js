@@ -1,12 +1,10 @@
-<<<<<<< HEAD
-=======
 var CommentBox = React.createClass({
   render: function() {
     return (
       <div className="commentBox">
         <h1>Comments</h1>
-        <CommentList />
-        <CommentForm />
+        <CommentList/>
+        <CommentForm/>
       </div>
     );
   }
@@ -46,7 +44,6 @@ var Comment = React.createClass({
 });
 
 ReactDOM.render(
-  <CommentBox />,
+  <CommentBox/>,
   document.getElementById('content')
 );
->>>>>>> f245bb963a99058d6cb02eb35ba584ce8629b123
